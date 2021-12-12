@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Prime_factors {
+
 	public static void main(String[] args){
 
 		/*Taking input from user */
