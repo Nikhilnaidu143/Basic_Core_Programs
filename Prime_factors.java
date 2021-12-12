@@ -10,14 +10,13 @@ public class Prime_factors {
 
 		System.out.println("\nThe prime factors of " + N + " are :- ");
 		for(int i=2; i*i<=N; i++){
-			if((N%i) == 0){
+			while((N%i) == 0){
 				System.out.println(i);
 				N /= i;
 			}
-			else{
-				continue;
-			}
 		}
-		System.out.println(N);
+		if(N > 2){
+			System.out.println(N);
+		}
 	}
 }
